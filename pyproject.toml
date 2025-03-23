@@ -1,0 +1,15 @@
+[project]
+name = "project1-sql"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.15.1",
+    "asyncpg>=0.30.0",
+    "black>=25.1.0",
+    "dotenv>=0.9.9",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.8.1",
+    "sqlalchemy[asyncio]>=2.0.39",
+]

@@ -1,7 +1,7 @@
-from sqlalchemy import MetaData, func
-from sqlalchemy.orm import DeclarativeBase, declared_attr, mapped_column, Mapped
+from sqlalchemy import MetaData
+from sqlalchemy.orm import DeclarativeBase, mapped_column, Mapped
 
-from config import settings
+from db.config import settings
 
 
 class Base(DeclarativeBase):
